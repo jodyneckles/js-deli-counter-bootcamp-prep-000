@@ -24,6 +24,5 @@ function currentLine(line) { // the current line of people
       newArray.push(` ${i + 1}. ${line[i]}`);
       }
     return 'The line is currently:' + newArray; // output current line status
-    // also possible with the following statement: return 'The line is currently:' + newArray.join(', ');
     }
   }
